@@ -74,6 +74,11 @@ const UserListPage = () => {
       dataIndex: 'type',
       key: 'type',
     },
+        {
+      title: 'phone no',
+      dataIndex: 'phone',
+      key: 'phone',
+    },
     {
       title: 'Action',
       key: 'action',
@@ -112,6 +117,7 @@ const UserListPage = () => {
             <p><strong>Last Name:</strong> {users.lastName}</p>
             <p><strong>Email:</strong> {users.email}</p>
             <p><strong>Type:</strong> {users.type}</p>
+            <p><strong>Type:</strong> {users.phone}</p>
           </Card>
         )
       )}
